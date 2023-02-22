@@ -11,16 +11,46 @@ body {
     background-color: beige;
 }
 
+#parent {
+    display: flex;
+    /* justify-content: center;
+    width: 100vw; */
+}
+
 #left {
+    display: flex;
     width: 40vw;
     min-width: 345px;
     height: 100vh;
     background-image: url("halie-west-unsplash.jpg");
     background-size: cover;
-    
+    margin-left: 0px;
     background-color: beige;
+    color: white;
 }
 
-h1 {
-    margin: 0px;
+#right {
+    width: 60vw;
+}
+
+
+#left-child {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    /* opacity: 1;
+    margin-top: 15%;
+    padding: 2em 0px 2em 0px; */
+}
+
+#banner {
+    font-size: 3em;
+    background-color: black;
+    padding: 1.5em;
+    width: 80%;
+}
+
+#logo {
+    width: 6em;
+    opacity: 1;
 }
