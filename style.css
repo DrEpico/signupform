@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Quicksand&display=swap');
 
 *{
-    /* font-family: 'Cinzel Decorative', sans-serif; */
     font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', sans-serif; 
 }
 
 body {
@@ -11,14 +14,18 @@ body {
     background-color: beige;
 }
 
+p {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
 #parent {
     display: flex;
-    /* justify-content: center;
-    width: 100vw; */
 }
 
 #left {
-    display: flex;
     width: 40vw;
     min-width: 345px;
     height: 100vh;
@@ -30,27 +37,46 @@ body {
 }
 
 #right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60vw;
+    margin: 15vh auto auto 1%;
+
 }
 
 
 #left-child {
-    background-color: black;
     display: flex;
-    width: 100%;
-    /* opacity: 1;
-    margin-top: 15%;
-    padding: 2em 0px 2em 0px; */
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    
 }
 
 #banner {
-    font-size: 3em;
-    background-color: black;
-    padding: 1.5em;
-    width: 80%;
+    font-size: 2.5em;
+    padding: 5em auto 5em auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    margin-top: 24vh;
+}
+
+p#banner {
+    padding: 1em 0em 1em 0em;;
 }
 
 #logo {
-    width: 6em;
+    width: 70px;
     opacity: 1;
 }
+
+a {
+    color: white
+}
+
+.attribution {
+    margin-top: 52vh;
+}
+
+
