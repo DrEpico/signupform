@@ -207,3 +207,17 @@ button {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
+.login {
+    padding-left: 3.3%;
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+    font-weight: 550;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+p.login>a {
+    color: #3c4043;
+}
+
+
