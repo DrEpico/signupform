@@ -174,7 +174,7 @@ button {
 
 .button-17:hover {
   background: #F6F9FE;
-  color: #144750;
+  color: #145028;
 }
 
 .button-17:active {
@@ -184,7 +184,7 @@ button {
 
 .button-17:focus {
   outline: none;
-  border: 2px solid #144750;
+  border: 2px solid #145026;
 }
 
 .button-17:not(:disabled) {
@@ -205,6 +205,10 @@ button {
 
 .button-17:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:invalid {
+    box-shadow: rgba(182, 48, 31, 0.3) 0 1px 3px 0, rgba(172, 56, 41, 0.3) 0 4px 8px 3px;
 }
 
 .login {
