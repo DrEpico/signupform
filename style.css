@@ -126,13 +126,19 @@ label {
 }
 
 input {
-    max-width: 50%;
+    width: 230px;
     height: 1.5rem;
 }
 
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
 button {
-    /* width: 5rem;
-    height: 2rem; */
     font-size: large;
     margin-left: 3%;
     margin-top: 3%;
@@ -225,3 +231,86 @@ p.login>a {
 }
 
 
+@media screen and (max-width: 900px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        height: 50vh;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 19px;
+        margin: 0.8rem 0px 0.8rem 0px;
+    }
+
+    h2 {
+        margin-top: 0px;
+        padding-top: 5px;
+    }
+
+    #parent {
+        flex-direction: column;
+    }
+
+    #left {
+        width: 100vw;
+        min-width: 100px;
+        height: 20vh;
+        padding: 0rem 0px 0rem 0px;
+        background-image: url("halie-west-unsplash.jpg");
+        background-size: cover;
+        color: white;
+    }
+
+    #right {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: 0vh auto 0px;
+    }
+
+    #right>h1 {
+        padding-left: 3%;
+        padding-top: 0px;
+    }
+
+    #right>h2 {
+        padding-left: 3%;
+    }
+
+    #banner {
+        flex-direction: column;
+        
+        text-align: center;
+        width: 100vw;
+        min-width: 100px;
+        height: 20vh;
+        margin-top: 0px;
+        padding: 0rem 0px 0rem 0px;
+    }
+
+    p#banner {
+        padding: 0px;
+    }
+
+    .attribution {
+        position: fixed;
+        left: 3%;
+        bottom: 0.5px;
+        color: #3c4043;
+        font-size: 13px;
+    }
+
+    .atag {
+        color: #3c4043;
+        font-size: 13px;
+    }
+    
+}
