@@ -2,7 +2,7 @@
 
 const passwordInput = document.querySelector("#password");
 const passwordConfInput = document.querySelector("#confirm-password");
-const submitBtn = document.querySelector("submittion")
+const submitBtn = document.querySelector("submittion");
 
 submitBtn.addEventListener("click",function() {
     const password = passwordInput.value;
@@ -15,4 +15,4 @@ submitBtn.addEventListener("click",function() {
         passwordConfInput.classList.add("invalid");
         passwordConfInput.classList.invalid("valid");
     }
-})
+});
